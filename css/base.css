@@ -1,0 +1,23 @@
+body {
+	background-color: #A4C9F7;
+}
+#wrapper {
+	margin: 5px auto 50px auto;
+	padding: 0 10px;
+	background-color: #fff;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+
+#navTop {
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+
+
+
+#leftBrowse span { font-weight: 900; }
+#leftBrowse ul, #leftBrowse li { list-style: none; margin: 0; padding: 0 0 0 4px; }
