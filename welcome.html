@@ -1,49 +1,82 @@
-<html>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<head>
+	    <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     	<title>Secaucus Public Library and Business Resource Center</title>
+        <meta name="Description" content="The Secaucus Public Library and Business Resource Center is the public library of Secaucus, NJ.  The library is located at 1379 Paterson Plank Road, Secaucus, NJ 07094." />
+        <meta name="keywords" content="public library, secaucus, nj, secaucus public library, secaucus public library and business resource center" />
+        <meta name="copyright" content="2012. 2011. 2010. 2009">
         <meta http-equiv="imagetoolbar" content="false" />
+        <meta name="viewport" content="width=device-width" />
     	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     	<link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
     	<link href="css/base.css" rel="stylesheet" type="text/css" />
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="http://www.bccls.org/js/searchPolaris.js"></script>
     </head>
-    <body>
+    <body class="welcome">
     	<div id="wrapper" class="container">
-        	
-            <div id="navTop">&#9474; Home &#9474; <a href="directions.html">Directions</a> &#9474; <a href="http://www.libraryinsight.net/calendar.asp?jx=n3">Calendar of Events</a>&#9474; <a href="museumpass.html">Museum Passes</a> &#9474; <a href="http://www.bccls.org" target="_blank">Library Catalog</a> &#9474; <a href="friendsoflibrary.html">Friends of the Library</a>&#9474; <a href="contact.html">Contact Us</a> &#9474; <a href="sitemap.html">Site Map</a> &#9474;</div>
+        	<div class="row-fluid">
+            	<div class="span12">
+                	<img src="img/SPL_site_banner.jpg" width="100%" alt="" />
+                </div>
+            </div>
             
+            <div id="navTop">&#9474; Home &#9474; <a href="directions.html" title="Directions to the Secaucus Public Library">Directions</a> &#9474; <a href="http://www.libraryinsight.net/calendar.asp?jx=n3" title="Library Calendar of Events">Calendar of Events</a>&#9474; <a href="museumpass.html" title="Information about Museum Passes">Museum Passes</a> &#9474; <a href="http://catalog.bccls.org/polaris/?ctx=133" target="_blank" title="Secaucus Public Library Book Catalog">Library Catalog</a> &#9474; <a href="friendsoflibrary.html" title="Friends of the Library">Friends of the Library</a>&#9474; <a href="contact.html" title="Contact Us">Contact Us</a> &#9474; <a href="sitemap.html" title="Site Map">Site Map</a> &#9474;</div>
             
+            <div class="row-fluid clearfix marginTB_10">
+            	<span class="span3">
+					<SCRIPT>
+                        // Courtesy of SimplytheBest.net - http://simplythebest.net/scripts/
+                        var mydate = new Date()
+                        var theYear = mydate.getFullYear()
+                        var day = mydate.getDay()
+                        var month = mydate.getMonth()
+                        var daym = mydate.getDate()
+                        if (daym < 10)
+                            daym = "0" + daym
+                        var dayarray = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+                        var montharray = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
+                        document.write(dayarray[day] + ", " + montharray[month] + " " + daym + ", " + theYear)
+                    </SCRIPT>
+                </span>
+                <span class="span3 offset6"><strong>Hours:</strong> Mon-Fri 9-9 Sat 12-4 Sun 12-4</span>
+            </div>
             
-            <div class="row-fluid">
+            <div class="row-fluid clearfix">
             	<!-- Left Column -->
                 <div class="span3">
                     <!-- Browse navigation -->
                     <div id="leftBrowse">
                         <span>Browse</span>
                         <ul>
-                            <li><a href="adult_fiction.html">adult fiction links</a></li>
-                            <li><a href="movies.html">afternoon movies</a></li>
-                            <li><a href="trustees.html">board of trustees</a></li>
-                            <li><a href="book clubs.html">book groups</a></li>
-                            <li><a href="clubs.html">clubs</a></li>
-                            <li><a href="computers.html">computer usage</a></li>
-                            <li><a href="downloadmedia.html">downloadable media</a></li>
-                            <li><a href="library_displays.html">library displays</a></li>
-                            <li><a href="services.html">library services</a></li>
+                            <li><a href="adult_fiction.html" title="Adulf Fiction Links">adult fiction links</a></li>
+                            <li><a href="movies.html" title="Afternoon Movies">afternoon movies</a></li>
+                            <li><a href="trustees.html" title="Board of Trustees">board of trustees</a></li>
+                            <li><a href="book clubs.html" title="Book Groups">book groups</a></li>
+                            <li><a href="clubs.html" title="Clubs">clubs</a></li>
+                            <li><a href="computers.html" title="Computer Usage">computer usage</a></li>
+                            <li><a href="downloadmedia.html" title="Downloadable Media">downloadable media</a></li>
+                            <li><a href="library_displays.html" title="Library Displays">library displays</a></li>
+                            <li><a href="services.html" title="Library Services">library services</a></li>
                         </ul>
                     </div>
                     <!-- Browse end -->
                     <!-- Services navigation -->
                     <div id="leftServices">
                     	<ul>
-                            <li><a href="borrowing.html">Borrowing Policy</a></li>
-                            <li><a href="listbyname.html">Databases</a></li>
-                            <li><a href="children.html">Children</a></li>
-                            <li><a href="teens.html">Teens</a></li>
-                            <li><a href="reference.html">Reference</a></li>
-                            <li><a href="literacy.html">Library</a></li>
-                            <li><a href="study%20rooms.html">Study Rooms &amp; Meetings</a></li>
-                            <li><a href="business_resources.html">Business Resources</a></li>
+                            <li><a href="borrowing.html" title="Borrowing Policy">Borrowing Policy</a></li>
+                            <li><a href="listbyname.html" title="Databases">Databases</a></li>
+                            <li><a href="children.html" title="Children">Children</a></li>
+                            <li><a href="teens.html" title="Teens">Teens</a></li>
+                            <li><a href="reference.html" title="Reference">Reference</a></li>
+                            <li><a href="literacy.html" title="Library">Library</a></li>
+                            <li><a href="study%20rooms.html" title="Study Rooms & Meetings">Study Rooms &amp; Meetings</a></li>
+                            <li><a href="business_resources.html" title="Business Resources">Business Resources</a></li>
 						</ul>
                     </div>
                     <!-- Services navigation end -->
@@ -51,27 +84,129 @@
                 <!-- Left Column end -->
                 
                 <!-- Center Column -->
-                <div class="span6">
+                <div id="centerContent" class="span6">
+                	<h1>Library News and Events</h1>
+                    
+                    <h2>Upcoming Library Closings</h2>
+                    
+                    <h3>Winter Holiday</h3>
+                    <p>Library will be closed on Monday, December 24 and Tuesday, December 25, 2012</p>
+                    <h3>New Year's Eve</h3>
+                    <p>Library will be closed on Monday, December 31, 2012</p>
+                    <h3>New Year's Day</h3>
+                    <p>Library will be closed on Tuesday, January 1, 2013 </p>
+                    
+                    <h2>Polaris - Our New Catalog</h2>
+                    <p>Our new online catalog system is now here. To access information about your account, you can now log on through the front page of our website. Please note that the new catalog system requires the use of a password. Passwords are the same as your pin number.</p>
+                    
+                    <h2>Do-It-Yourself Craft</h2>
+                    <p>Thursday, December 20, 3:00pm-5:00pm
+                    <p>Youths under 8 are welcome to stop between 3pm-5pm to create a holiday craft. This is a Do-It-Yourself craft to be completed with both parent/guardian and child.</p>
+                    
+                    <h2>Youth Movie: The Lorax</h2>
+                    <p>Wednesday, December 26, 7:00pm
+                    <p>Join us at the library for a special viewing of the Lorax, a PG rated animated fiml about a 12-year-old boy searches for the one thing that will enable him to win the affection of the girl of his dreams. To find it he must discover the story of the Lorax, the grumpy yet charming creature who fights to protect his world.</p>
+                    
+                    <h2>Book Bingo For Youths ages 5-10</h2>
+                    <p>Thursday, December 27, 11:00am</p>
+                    <p>Youths, ages 5-10, are invited to play the 'literary version' of bingo on 12/27 at 11am. Instead of numbered cards, this game will feature favorite children authors, book characters, and book titles from classic to newly popular. No registration is required.</p>
+                    
+                    <h2>Tuesday Movies Announcement</h2>
+                    <p>As FEMA will be using our facilities, our Tuesday afternoon movie events on December 11th and 18th to be shown at 1 pm at the Secaucus Senior Center, 101 Centre Avenue.</p>
+                    
+                    <h2>Youth Art Months: November through December</h2>
+                    <p>Youths in grades Pre-K to 12th are invited to display their art at the library during the months of November and December. All types of art are welcome, including painting, drawings, sculptures, crafts, photography, crafts, etc. All pictures and photographs must be framed or mounted when brought to the library. The name, grade, and phone number of the child must be on the back of each submission.</p>
+                    
+                    <h2>New Museum Passes</h2>
+                    <p>Did you know that the library offers several museum passes to library card users for free? To find out more information about participating museums, visit our <a href="museumpass.html" title="Visit our page about museums">page about museums</a>. We are pleased to annouced two new museums Morris Museum and the Children's Museum of Manhattan.</p>
+                    
+                    <h2>HeritageQuest Online</h2>
+                    <p>Users can access HeritageQuest Online at home with their library card. HeritageQuest is a comprehensive treasury of American genealogical sources. Please use the following link to access this database from your own home computer: <a href="http://tinyurl.com/d4epdfl" title="Access HeritageQuest Online" target="_blank">http://tinyurl.com/d4epdfl</a></p>
+                    
+                    <h2>Ongoing Book Sale</h2>
+                    <p>Stop by the library during our business hours to see which books we have on sale. All books are $1.00 each regardless of size or publication date. The books on sale are located on the bookcase across from the community bulletin board. All proceeds benefit the library's collection of new materials.</p>
+                    
+                    <h2>Ebooks Available Through eBCCLS</h2>
+                    <p>As of 3/12, BCCLS has launched a special collection just for BCCLS patrons, and can be accessed by visiting: <a href="http://www.bccls.org/ebccls.shtml" title="Access eBCCLS for Ebooks" target="_blank">bccls.org/ebccls.shtml</a>. By clicking on this link you can also access the database, Naxos Music Library and Spoke Word Library.</p>
                 </div>
                 <!-- Center Column end -->
                 
                 <!-- Right Column -->
                 <div class="span3">
+                	<!-- Social Media -->
+                    <span class="clearfix marginTB_10"><strong>Follow us on:</strong> <a href="http://twitter.com/secaucuslibrary" title="Follow us on Twitter"><img src="img/twitter_logo.jpg" alt="" width="45" height="45" /></a> 
+                    <a href="http://www.facebook.com/pages/Secaucus-NJ/Secaucus-Public-Library-and-Business-Resource-Center/76421107942?ref=ts" title="Follow us on Facebook"><img src="img/facebook_logo.jpg" alt="" width="43" height="45" /></a></span>
+                    <!-- Social Media end -->
+                
+                    <!-- Search Polaris -->
                     <div id="rightPolarisSearch">
                         <span>Search the Library Catalog </span>
                         <FORM name="search" id="search" action="javascript:searchPolaris()">
                             <input name="query" type="text" id="query">
                             <input type="hidden" name="highlightorlimit" value="Highlight for" id="highlightorlimit_0" checked="checked">
-                            <input type="hidden" NAME="whichlibrary" id="whichLibrarySelected" value="133">
+                            <input type="hidden" NAME="whichlibrary" id="whichLibrarySelected" value="133"><br />
                             <input type="submit" value="GO">
                         </FORM>
                     </div>
+                    <!-- Search Polaris end -->
+                    
+                    <!-- Access Account -->
+                    <div id="rightAccessAccount">
+                        <span>Access Your Account</span>
+                        <FORM method="post" action="http://catalog.bccls.org/polaris/logon_ext.aspx?ctx=133">
+                            <label for="userid">Barcode:</label>
+                            <input type="text" id="userid" name="userid"/>
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" name="password"/><br />
+                            <input type="submit" value="Log In" />
+                        </FORM>
+                    </span>
+                    <!-- Access account end -->
+                    
+                    <!-- Support Library -->
+                    <div id="rightSupport">
+                    	<h3>Support the Secaucus Public Library</h3>
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+	                        <input type="hidden" name="cmd" value="_s-xclick">
+    	                    <input type="hidden" name="hosted_button_id" value="9938704">
+        	                <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            	            <img alt="Donate to the Secaucus Public Library" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                        </form>
+                    </div>
+                    <!-- Support Library end -->
+                    
+                    <a id="rightGreenSticker" title="Open Borrowing" target="_blank">
+                    	<h3>Open Borrowing</h3><p>Discover what the little green sticker can do for you</p>
+                    </a>
+                    
+                    <a href="http://www.bccls.org/ebccls.shtml" title="Access eBCCLS for Ebooks" target="_blank"><img src="img/ebccls.JPG" width="100%" alt="" /></a>
                 </div>
                 <!-- Right Column end -->
                 
             </div>
             
-            
-        </div>
+            <footer class="row-fluid">
+            	<div class="span7 padLR_10">
+                	Secaucus Public Library and Business Resource Center, 2011<br/>
+                    1379 Paterson Plank Road Secaucus, NJ 07094  (201) 330-2083 or <a href="mailto:secacirc@bccls.org" title="Email Secaucus Public Library">email us</a>
+                </div>
+                <div class="span3 offset2">
+                	<a href="mailto:lanora.melillo@bccls.org" title="Contact the Webmaster">Contact the Webmaster</a><br/>
+					Site last updated 12/12/2012
+                </div>
+            </footer>
+        </div>        
+		<script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-36954601-1']);
+          _gaq.push(['_setDomainName', 'bccls.org']);
+          _gaq.push(['_setAllowLinker', true]);
+          _gaq.push(['_trackPageview']);
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
     </body>
 </html>

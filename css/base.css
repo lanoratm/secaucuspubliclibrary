@@ -1,13 +1,52 @@
 body {
 	background-color: #A4C9F7;
 }
+footer { 
+	clear: both;
+	display: block;
+}
+/** Homepage only footer styles */
+.welcome footer {
+	background-color: rgb(128,128,255);	
+	padding: 3px 0px;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-ms-border-radius: 8px;
+	color: #fff;
+}
+.welcome footer a:link, 
+.welcome footer a:active,
+.welcome footer a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+.welcome footer a:hover {
+	color: #A4C9F7;
+	text-decoration: underline;
+}
+.welcome h1,
+.welcome h2,
+.welcome h3,
+.welcome h4 {
+	font-size: 15px;
+	line-height: 18px;
+	margin: 5px 0 0 0;
+	padding: 0;
+}
+.welcome h1 {
+	font-size: 25px;
+	line-height: 29px; 
+}
+/** wrapper ID for the outer DIV */
 #wrapper {
 	margin: 5px auto 50px auto;
-	padding: 0 10px;
+	padding: 10px;
 	background-color: #fff;
 	border-radius: 8px;
 	-moz-border-radius: 8px;
 	-webkit-border-radius: 8px;
+	-ms-border-radius: 8px;
 }
 
 #navTop {
@@ -16,8 +55,53 @@ body {
 	width: 100%;
 }
 
-
-
+#centerContent {
+	text-align: center;
+	margin-bottom: 40px;
+}
 
 #leftBrowse span { font-weight: 900; }
 #leftBrowse ul, #leftBrowse li { list-style: none; margin: 0; padding: 0 0 0 4px; }
+
+#leftServices ul,
+#leftServices li { list-style: none; margin: 0; padding: 0; }
+#leftServices ul {
+	margin: 10px 0 0 0;
+}
+#leftServices li a {
+	padding: 8px 10px;
+	margin: 2px 0;
+	height: 20px;
+	font-size: 20px;
+	display: block;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-ms-border-radius: 8px;
+	border: 2px solid #A4C9F7;
+}
+
+#rightPolarisSearch,
+#rightAccessAccount {
+	font-weight: 900;
+}
+
+#rightSupport {
+	text-align:center;
+	font-weight: 900;
+}
+#rightSupport h3 { margin-bottom: 8px; }
+
+#rightGreenSticker {
+	background-color: #00fb00;
+	text-align:center; 
+	padding: 10px;
+	border: 1px solid #000;
+	border-radius: 8px;
+	display: block;
+	color: #000;
+	margin: 5px 0 20px 0;
+}
+
+.marginTB_10 { margin: 10px 0; display: block; }
+.padLR_10 { padding: 0 10px; }
