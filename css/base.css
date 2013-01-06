@@ -64,6 +64,13 @@ input[type="password"] {
 	margin-bottom: 40px;
 }
 
+#leftLogin {
+	clear: both;
+	font-weight: 900;
+	display: block;
+	padding-bottom: 10px;
+}
+
 #leftBrowse span { font-weight: 900; }
 #leftBrowse ul, #leftBrowse li { list-style: none; margin: 0; padding: 0 0 0 4px; }
 
@@ -109,3 +116,7 @@ input[type="password"] {
 
 .marginTB_10 { margin: 10px 0; display: block; }
 .padLR_10 { padding: 0 10px; }
+
+@media(min-width:768px) {
+	
+}
