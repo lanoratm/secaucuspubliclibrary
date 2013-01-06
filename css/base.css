@@ -4,6 +4,7 @@ body {
 footer { 
 	clear: both;
 	display: block;
+	margin-top: 35px;
 }
 input[type="text"],
 input[type="password"] {
